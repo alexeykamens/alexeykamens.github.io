@@ -1,0 +1,32 @@
+td,table,th {border: 1px solid black;
+border-collapse: collapse; }
+th{background: #A464C2 }
+h2{color: darkred}
+table{background: linear-gradient(-90deg, green, lightblue);}
+.rside {display: flex;
+flex-direction: column;
+width:200px;
+height: 100%;
+align-items: center;
+justify-content: left;
+}
+input[type="number"] {margin: 10px 0px 10px 0px}
+input[type="button"] {margin: 5px 0px 30px 0px; width: 100px;}
+label{margin: 30px 0px 30px 0px;}
+th+td{height:1px;}
+.priz h2{display: block;
+height: 50px; 
+border:1px solid gray;
+}
+.stavka, .money{
+	text-align: center;
+}
+.wrapper{display:inline-block; overflow:hidden; height: 54px; width: 50px; 
+	border:1px solid black;}
+.wrapper div {position: relative; padding: 0px; }
+.wrapper img{margin: 0px;padding: 0px;}
+.rside label {font-family: 'Rammetto One', cursive; font-size: 1.5em;}
+.rside p, h2 {font-family: 'Rammetto One', cursive; font-size: 1.5em; color: darkred;}
+h2 {padding: 0px 0px 20px 0px;}
+div.prize{text-align: center; height: 180px;}
+p {font-size: 1.2em}

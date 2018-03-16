@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"  style="width: 100%; height: 100%">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+</head>
+<body>
+	
+	<table>
+		<tr>
+			<th>Комбинация</th>
+			<th>Описание</th>
+			<th>Выигрыш</th>
+			<td rowspan="9">
+				<div class="rside">
+					<div class="money">
+						<label>Ваши деньги</label>
+						<p id="money">0</p>
+						<label for="extraMoney">Внести деньги</label>
+						<input type="number" min="0" step="100" id="extraMoney" value="0">
+						<input type="button" value="Внести" id="addMoney">
+					</div>
+					<div class="stavka">
+						<label for="stavka">На кону</label>
+						<input type="number" min="0" step="100" id="stavka" value="0">
+						<input type="button" value="Играть!" id="tobet">
+					</div>
+					<div class="comb">
+						<div class="wrapper">
+							<div>
+								<img src="#" alt="">
+							</div>
+						</div>
+						<div class="wrapper">
+							<div>
+								<img src="#" alt="">
+							</div>
+						</div>
+						<div class="wrapper">
+							<div>
+								<img src="#" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="prize">
+						<label for="prize">Выигрыш</label>
+						<h2 id="priz"></h2>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/pearl.gif" alt="">
+				<img src="images/pearl.gif" alt="">
+				<img src="images/pearl.gif" alt="">
+			</td>
+			<td><p>три жемчужены</p></td>
+			<td><p>800 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/shark.gif" alt="">
+				<img src="images/shark.gif" alt="">
+				<img src="images/shark.gif" alt="">
+			</td>
+			<td><p>три акулы</p></td>
+			<td><p>200 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/octopus.gif" alt="">
+				<img src="images/octopus.gif" alt="">
+				<img src="images/octopus.gif" alt="">
+			</td>
+			<td><p>три осьминога</p></td>
+			<td><p>80 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/fish.gif" alt="">
+				<img src="images/fish.gif" alt="">
+				<img src="images/fish.gif" alt="">
+			</td>
+			<td><p>три рыбы</p></td>
+			<td><p>40 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/shell.gif" alt="">
+				<img src="images/shell.gif" alt="">
+				<img src="images/shell.gif" alt="">
+			</td>
+			<td><p>три ракушки</p></td>
+			<td><p>20 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/any3x.gif" alt="">
+				<img src="images/star-magenta.gif" alt="">
+				<img src="images/star-red.gif" alt="">
+			</td>
+			<td><p>три звезды любого цвета</p></td>
+			<td><p>10 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/any2x.gif" alt="">
+				<img src="images/star-magenta.gif" alt="">
+				<img src="images/star-red.gif" alt="">
+			</td>
+			<td><p>две звезды любого цвета</p></td>
+			<td><p>5 к 1</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img src="images/any1x.gif" alt="">
+				<img src="images/star-magenta.gif" alt="">
+				<img src="images/star-red.gif" alt="">
+			</td>
+			<td><p>одна звезда любого цвета</p></td>
+			<td><p>2 к 1</p></td>
+		</tr>
+	</table>
+	<script src="script.js"></script> 
+</body>
+</html>
