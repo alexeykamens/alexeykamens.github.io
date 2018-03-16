@@ -1,0 +1,84 @@
+/** {border:solid 1px green;}
+*/
+body {width: 100%; height: 100%; background: black; color: white; font-family: 'Oswald', sans-serif;}
+header {border-left:solid 5px #CA53A5; position: relative; top: 3%;
+	background: black;}
+p {font-family: 'Alegreya Sans', sans-serif; color:gray;}
+header div div img {width: 100px;}
+header div:hover div img {animation: tada 1s}
+ul {margin-top: 10px}
+li {float: right; margin-right: 2.5%; list-style: none;}
+li a {padding: 0px 5px}
+a {text-decoration: none; color: white;}
+h5 {color: white}
+
+.sec1 {background: url(../images/home-bg.jpg) no-repeat; 
+	background-size: cover; background-position: -30% 50%; }
+	.sec1 h1 {padding: 10% 20%; animation: bounceInDown 2s}
+
+.sec2 {position:relative; top:-8%;}
+.sec2 div article {text-align: center; padding: 10px 5px;}
+.sec2 div article:nth-child(1) {background: #C14000}
+.sec2 div article:nth-child(2) {background: #009987}
+.sec2 div article:nth-child(3) {background: #FEA500}
+.sec2 div article i {font-size: 30px; color: white; 
+	border-radius: 50% 50%; padding: 18px; border: solid 3px white;
+	 margin-bottom: 5px;}
+.sec2 div article p {color: white;}
+.sec2 div article:hover i {
+	transition: transform 1.2s linear;
+	transform: rotate3d(0, 4, 0, 540deg);
+}
+
+.sec2 div article:nth-child(2) i{padding: 15px 24px;}
+
+.sec3 div.r1{background: #191919;}
+.sec3 div.r1 aside:nth-child(1) img{width: 100%;}
+.sec3 div.r1 article:nth-child(2) {padding: 3% 1%;}
+.sec3 div article a {display: inline-block; border: solid 3px white;
+	 padding: 7px;  text-align: center; color: white; margin-top: 5%}
+.sec3 div article h6 {margin: 0px;}
+
+.sec3 div.r2 article{text-align: center;padding:5% 15% 3%}
+
+.sec3 div.r3 article {padding:0px ;}
+.sec3 div.r3 article img{width: 100%;}
+.sec3 div.r3 article:hover img{position:relative; z-index: 2;
+ transform: scale(1.1,1.1); transition: transform 1s;}
+.sec3 div.r4 article:hover img{position:relative; z-index: 2;
+ transform: scale(1.1,1.1); transition: transform 1s;}
+
+.sec3 div.r4 article {padding:0px ;}
+.sec3 div.r4 article img{width: 100%;}
+
+.sec3 div.r5 article {text-align: center}
+.sec3 div.r5 article a{margin: 3% 0% 5%}
+
+.b1 {background: #191919; width: 100%;}
+.sec4 div.r1 {padding:2% 15px;}
+.sec4 div.r1 address img{width: 90px;}
+.sec4 div.r1 address:hover img{width: 90px; animation: rubberBand 1s;}
+.sec4 div.r1 address,article a{color: gray;}
+.sec4 div.r1 article {padding-top: 2%}
+.sec4 div.r1 article h4 {color: white}
+form input {color: white; background: none; border: 3px solid white;
+	margin:3% 0px; padding:1px 10px;}
+
+::-webkit-input-placeholder {color:white;}
+::-moz-placeholder          {color:white;}
+:-moz-placeholder           {color:white;}
+:-ms-input-placeholder      {color:white;}
+
+footer {padding-top: 2%}
+footer div aside:nth-child(2) {text-align: center;}
+footer div aside a{display: inline-block; width:30px; height: 30px; 
+	padding: 3px; background: #363435}
+ footer div aside a i{color: gray; background: #363435}
+footer div aside a:hover {position:relative; z-index: 2;
+ transform: scale(1.3,1.3); transition: transform 1s;}
+ a:hover {color: white;}
+ div article a:hover {text-decoration: none;background: gray; 
+ 	color: black; border: solid 3px gray;}
+ li:hover a{background: gray; color: black;}
+ li a:hover {text-decoration: none; color: black;}
+

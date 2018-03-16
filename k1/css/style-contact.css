@@ -1,0 +1,14 @@
+.sec1 {background: url(../images/contact-header.jpg) !important; 
+background-position: 0% 60% !important; 
+background-size: 100% !important;}
+
+.sec5 div.r1 {padding: 0% 10%;}
+.sec5 div.r1 article{text-align: center; padding:1% 15% 3%;}
+.sec5 div.r1 article p {text-align: justify;}
+main.sec5 {padding:3% 0%;}
+textarea {background: #202020; color: white;} 
+#name, #email0{border:none; background: #202020; margin:0px; 
+	padding: 5px;}
+.r6 aside h6 {color: gray;margin:0px;}
+.r6 aside p a{color: gray; font-size: 1em}
+#send {padding: 5px 10px;}

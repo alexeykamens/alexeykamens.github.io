@@ -1,0 +1,11 @@
+.sec1 {background: url(../images/portfolio-header.jpg) !important; 
+background-position: 0% 60% !important; 
+background-size: 100% !important;}
+
+.sec5 div.r1 {padding: 0% 10%;}
+.sec5 div.r1 article{text-align: center; padding:1% 15% 3%;}
+.sec3 div.r1{background: none !important;}
+
+main.sec5 {padding:3% 0%;}
+main div.r1 article h5 {margin-bottom: 5%;}
+

@@ -1,0 +1,19 @@
+.sec1 {background: url(../images/about-header.jpg) !important; 
+background-position: 0% 60% !important; 
+background-size: 100% !important;}
+
+.sec5 div.r1 {padding-top: 0.5%;}
+.sec5 div.r1 article{text-align: center; padding:1% 15% 3%;}
+.sec5 div.r1 article p {text-align: justify;}
+.sec5 div.r2 article {border: solid 1px gray; margin-bottom: 5%}
+.sec5 div.r2 article img{width: 100%;padding-top: 3%;}
+.sec5 div.r2 article h5{margin:10px 0px 0px;}
+.sec5 div.r2 article h6{color: #D54AB6; 
+	text-align: justify;margin:5% 0px;}
+hr {border: solid gray 0.5px; width: 70%;}
+.sec6 div.r1 {margin: 5% 0px;}
+.sec6 div.r1 aside:nth-child(2) p{margin: 0px; font-weight: bolder;
+font-size: 0.9em; line-height: 0.9;}
+.sec6 div.r1 aside:nth-child(2) p:nth-child(3n-2) {text-align: right;
+margin: 10px 0px 0px;}
+
